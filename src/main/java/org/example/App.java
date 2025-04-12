@@ -16,11 +16,12 @@ public class App
 
         SessionFactory sFac= cfg.buildSessionFactory();
 
-        Student s= new Student(1, "Ajeet", "gonda");
+        Student s= new Student(2, "John", "uk");
 
         Session session = sFac.openSession();
         Transaction tr =session.beginTransaction();
-        session.save(s);
+//        session.save(s);  //The save() method is deprecated.
+        session.persist(s); //can be used for saving.
         tr.commit();
 
         sFac.close();
