@@ -8,13 +8,44 @@ import jakarta.persistence.Table;
 @Table(name = "new_student")
 public class Student {
     @Id
-    int id;
-    String name;
-    String address;
+    private int id;
+    private String name;
+    private String address;
 
-    Student(int id, String name, String address) {
-        this.id=id;
-        this.name=name;
-        this.address=address;
+    // ✅ Public no-arg constructor for Hibernate
+    public Student() {
+    }
+
+    // ✅ Constructor to initialize values
+    public Student(int id, String name, String address) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+    }
+
+    // Getters
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    // (Optional) Setters if needed
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
