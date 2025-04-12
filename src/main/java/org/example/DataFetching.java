@@ -12,6 +12,8 @@ public class DataFetching {
 //        cfg.configure();
         SessionFactory sFac = cfg.buildSessionFactory();
         Session session = sFac.openSession();
+
+//        Fetching data using get() method
         Student s1  = (Student)session.get( Student.class,1);
         System.out.println(s1.getId());
         System.out.println(s1.getName());
