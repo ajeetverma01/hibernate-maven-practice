@@ -1,4 +1,4 @@
-# Hibernate Maven Demo
+# Hibernate Practice
 
 This is a simple Java project demonstrating how to use **Hibernate ORM** with **Maven**. It includes basic CRUD operations and uses MySQL as the database.
 
