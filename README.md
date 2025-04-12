@@ -18,9 +18,11 @@ Hibernate-practice/
 ├── .idea/
 ├── src/
 │   ├── main/
-│   │   └── java/
-│   │       └── org/example/
-│   │           └── App.java
+│   │   ├── java/
+│   │   │   └── org/example/
+│   │   │       └── App.java
+│   │   └── resources/
+│   │       └── hibernate.cfg.xml
 │   └── test/
 │       └── java/
 │           └── org/example/
