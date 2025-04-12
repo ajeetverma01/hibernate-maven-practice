@@ -16,7 +16,6 @@
         <property name="hibernate.show_sql">true</property>
 
         <mapping class="org.example.Student"/>
-        <mapping class = "org.example.Address"/>
         <!--        If there are more than one class then more than one mapping tag will be used.-->
     </session-factory>
 </hibernate-configuration>
