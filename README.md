@@ -60,7 +60,7 @@ Hibernate-practice/
 
 5. **Run the main class**
     - Run the `App.java` to test the Hibernate CRUD operations
-    - There are many classes to run. Run them to perform many other concepts.
+    - There are many classes which are made for other concepts. Run them to perform many other concepts.
 
 ## 🗃️ Sample Entity
 
