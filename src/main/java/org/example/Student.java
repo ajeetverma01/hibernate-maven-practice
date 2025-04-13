@@ -45,7 +45,6 @@ public class Student {
         return address;
     }
 
-    // (Optional) Setters if needed
     public void setId(int id) {
         this.id = id;
     }

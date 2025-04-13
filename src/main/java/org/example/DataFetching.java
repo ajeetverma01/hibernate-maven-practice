@@ -14,6 +14,7 @@ public class DataFetching {
         Session session = sFac.openSession();
 
 //        Fetching data using get() method (working)
+//        Can use parameterized constructor instead
         Student s1  = (Student)session.get( Student.class,1);
         System.out.println("USing get()");
         System.out.println(s1.getId());
