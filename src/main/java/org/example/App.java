@@ -30,7 +30,7 @@ public class App
         byte[] img = new byte[fis.available()];
         fis.read(img);
         InsertingImage i1=new InsertingImage(1,"Ajeet", img);
-        session.persist(i1); //can be used for saving.
+        session.persist(i1);
 
 //        session.save(s);  //The save() method is deprecated.
         session.persist(s); //can be used for saving.
