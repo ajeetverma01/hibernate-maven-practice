@@ -17,7 +17,7 @@
 
         <mapping class="org.example.Student"/>
         <mapping class="org.example.InsertingImage"/>
-
-        <!--        If there are more than one class then more than one mapping tag will be used.-->
+        <mapping class="org.example.LearningAnnotations"/>
+<!--    If there are more than one class then more than one mapping tag will be used.-->
     </session-factory>
 </hibernate-configuration>
