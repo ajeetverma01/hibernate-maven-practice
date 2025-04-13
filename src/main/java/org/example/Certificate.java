@@ -1,5 +1,8 @@
 package org.example;
 
+import jakarta.persistence.Embeddable;
+
+@Embeddable //This will add column to existing table (Jha pe iska obj create hua hai)
 public class Certificate {
     String course;
     String Duration;
