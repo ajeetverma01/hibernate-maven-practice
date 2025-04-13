@@ -12,11 +12,11 @@ public class Student {
     private String name;
     private String address;
 
-    // ✅ Public no-arg constructor for Hibernate
+    // Public no-arg constructor for Hibernate
     public Student() {
     }
 
-    // ✅ Constructor to initialize values
+    // Constructor to initialize values
     public Student(int id, String name, String address) {
         this.id = id;
         this.name = name;
