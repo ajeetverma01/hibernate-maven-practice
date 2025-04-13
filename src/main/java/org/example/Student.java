@@ -11,6 +11,15 @@ public class Student {
     private int id;
     private String name;
     private String address;
+    private Certificate C1;
+
+    public Certificate getC1() {
+        return C1;
+    }
+
+    public void setC1(Certificate c1) {
+        C1 = c1;
+    }
 
     // Public no-arg constructor for Hibernate
     public Student() {
