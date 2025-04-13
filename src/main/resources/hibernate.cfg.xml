@@ -12,10 +12,12 @@
         <property name="hibernate.connection.password"/>
 
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
         <property name="hibernate.show_sql">true</property>
 
         <mapping class="org.example.Student"/>
+        <mapping class="org.example.InsertingImage"/>
+
         <!--        If there are more than one class then more than one mapping tag will be used.-->
     </session-factory>
 </hibernate-configuration>
