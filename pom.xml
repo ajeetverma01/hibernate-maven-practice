@@ -17,6 +17,7 @@
   </properties>
 
   <dependencies>
+<!--    junit for testing-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -48,6 +49,7 @@
   </dependencies>
 
 
+<!--  This part is added for the support of jdk 17 and above-->
   <build>
     <plugins>
       <plugin>
