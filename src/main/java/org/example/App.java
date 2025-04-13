@@ -11,6 +11,7 @@ public class App
     {
         System.out.println( "Starting the project" );
 
+//        We can create another class for providing sessions only (Will be creating at the time of projects)
         Configuration cfg = new Configuration();
         cfg.configure();
 
