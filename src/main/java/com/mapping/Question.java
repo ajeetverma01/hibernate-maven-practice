@@ -8,6 +8,7 @@ public class Question {
     @Id
     int quesId;
     String ques;
+    Answer ans;
 
     public Question(int quesId, String ques) {
         super();

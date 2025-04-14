@@ -8,6 +8,7 @@ public class Answer {
     @Id
     int ansId;
     String ans;
+    Question question;
     public int getAnsId() {
         return ansId;
     }
