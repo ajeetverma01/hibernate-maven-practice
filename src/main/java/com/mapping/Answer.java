@@ -2,12 +2,15 @@ package com.mapping;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 @Entity
 public class Answer {
     @Id
     int ansId;
     String ans;
+
+    @OneToOne(mappedBy = "ans")
     Question question;
     public int getAnsId() {
         return ansId;

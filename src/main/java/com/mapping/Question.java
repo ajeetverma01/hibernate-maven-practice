@@ -2,12 +2,17 @@ package com.mapping;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToOne;
 
 @Entity
 public class Question {
     @Id
     int quesId;
     String ques;
+    @OneToOne
+    @JoinColumn(name = "ans_id")
+    Answer ans;
 
     public Answer getAns() {
         return ans;
@@ -17,7 +22,6 @@ public class Question {
         this.ans = ans;
     }
 
-    Answer ans;
 
     public Question(int quesId, String ques) {
         super();
