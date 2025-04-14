@@ -28,6 +28,14 @@ public class LearningMapping {
         session.persist(answer);
 
         tr.commit();
+
+        Question q1 = (Question)session.get(Question.class, 1);
+        System.out.println("Question id: " + q1.getQuesId());
+        System.out.println("Question: "+ q1.getQues());
+        System.out.println("Answer id: "+q1.getAns().getAnsId());
+        System.out.println("Answer: " + q1.getAns().getAns());
+
+
         sFac.close();
         session.close();
     }
