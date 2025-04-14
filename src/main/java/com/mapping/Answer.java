@@ -10,7 +10,7 @@ public class Answer {
     int ansId;
     String ans;
 
-    @OneToOne(mappedBy = "ans")
+    @OneToOne
     Question question;
     public int getAnsId() {
         return ansId;
