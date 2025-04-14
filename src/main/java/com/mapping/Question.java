@@ -8,6 +8,15 @@ public class Question {
     @Id
     int quesId;
     String ques;
+
+    public Answer getAns() {
+        return ans;
+    }
+
+    public void setAns(Answer ans) {
+        this.ans = ans;
+    }
+
     Answer ans;
 
     public Question(int quesId, String ques) {

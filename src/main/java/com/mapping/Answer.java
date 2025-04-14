@@ -13,6 +13,14 @@ public class Answer {
         return ansId;
     }
 
+    public Question getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(Question question) {
+        this.question = question;
+    }
+
     public Answer() {
         super();
     }
