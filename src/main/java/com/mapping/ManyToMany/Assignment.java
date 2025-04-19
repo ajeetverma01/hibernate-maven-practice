@@ -1,8 +1,17 @@
 package com.mapping.ManyToMany;
 
+import jakarta.persistence.*;
+
+import java.util.List;
+
+@Entity
 public class Assignment {
+    @Id
     private int aId;
     private String aName;
+
+    @ManyToMany(mappedBy = "assignments")
+    private List<Employee> employees;
 
     public Assignment(int aId, String aName) {
         this.aId = aId;
@@ -26,5 +35,13 @@ public class Assignment {
 
     public void setaName(String aName) {
         this.aName = aName;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
+    }
+
+    public void setEmployees(List<Employee> employees) {
+        this.employees = employees;
     }
 }
