@@ -1,4 +1,4 @@
-package com.mapping;
+package com.mapping.OneToOne;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,5 +1,6 @@
-package com.mapping;
+package com.mapping.OneToOne;
 
+import com.mapping.OneToOne.Answer;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
