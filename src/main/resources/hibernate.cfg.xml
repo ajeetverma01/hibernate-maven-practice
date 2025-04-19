@@ -22,6 +22,9 @@
         <mapping class="com.mapping.OneToOne.Answer"/>
         <mapping class="com.mapping.ManyToOne.Test1"/>
         <mapping class="com.mapping.ManyToOne.Test2"/>
+        <mapping class="com.mapping.ManyToMany.Employee"/>
+        <mapping class="com.mapping.ManyToMany.Assignment"/>
+
 
 
         <!--    If there are more than one class then more than one mapping tag will be used.-->
