@@ -43,6 +43,26 @@ public class LearnHQL {
             System.out.println("Duration : " + s1.getC1().getDuration());
         }
 
+//        User input :
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Using user input...");
+
+
+        String query3 = "from Student where address =:x";
+        Query q3 = session.createQuery(query3);
+        q3.setParameter("x","uk");
+        List<Student> l3 = q3.list();
+        for (Student s1 : l3
+        ) {
+            System.out.println("Name : " + s1.getName());
+            System.out.println("Address : " + s1.getAddress());
+            System.out.println("Course : " + s1.getC1().getCourse());
+            System.out.println("Duration : " + s1.getC1().getDuration());
+        }
+
+
 
         sFac.close();
         session.close();
