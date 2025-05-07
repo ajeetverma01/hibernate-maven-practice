@@ -32,7 +32,7 @@ public class LearnHQL {
         System.out.println("Where address = gonda ");
 
 //        Lil bit complex queries:
-        String query2 = "from Student where address = 'gonda'";
+        String query2 = "from Student where address = 'gonda'"; //Dynamic query
         Query q2 = session.createQuery(query2);
         List<Student> l2 = q2.list();
         for (Student s1 : l2
