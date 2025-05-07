@@ -20,8 +20,11 @@ Hibernate-practice/
 ├── src/
 │   ├── main/
 │   │   ├── java/
+│   │   │   ├── com/mapping/
+│   │   │   ├── HQL/
 │   │   │   └── org/example/
-│   │   │       └── App.java
+│   │   │       ├── App.java
+│   │   │       └── a.png
 │   │   └── resources/
 │   │       └── hibernate.cfg.xml
 │   └── test/
