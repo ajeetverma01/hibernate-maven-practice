@@ -19,7 +19,10 @@ public class LearnHQL {
         Query q1 = session.createQuery(query1);
         List<Student> l1 = q1.list();
 
-
+        for (Student s1 : l1
+             ) {
+            System.out.println("Name of student is : " + s1.getName());
+        }
 
 
 
