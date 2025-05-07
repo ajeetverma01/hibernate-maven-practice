@@ -6,6 +6,7 @@ This is a simple Java project demonstrating how to use **Hibernate ORM** with **
 
 - Java
 - Hibernate (ORM)
+- HQL
 - Maven
 - MySQL
 - JDBC
