@@ -50,7 +50,7 @@ public class LearnHQL {
         System.out.println("Using user input...");
 
 
-        String query3 = "from Student where address =:x";
+        String query3 = "from Student where address =:x"; //here it is parameterized query
         Query q3 = session.createQuery(query3);
         q3.setParameter("x","uk");
         List<Student> l3 = q3.list();
