@@ -21,7 +21,10 @@ public class LearnHQL {
 
         for (Student s1 : l1
              ) {
-            System.out.println("Name of student is : " + s1.getName());
+            System.out.println("Name : " + s1.getName());
+            System.out.println("Address : " + s1.getAddress());
+            System.out.println("Course : " + s1.getC1().getCourse());
+            System.out.println("Duration : " + s1.getC1().getDuration());
         }
 
 
