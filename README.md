@@ -43,28 +43,7 @@ Hibernate-practice/
 - Entity class with JPA annotations
 - Maven-based project setup
 - MySQL database connection
-
-## 🚀 How to Run
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/ajeetverma01/hibernate-maven-practice.git
-   ```
-
-2. **Import into your IDE** (IntelliJ IDEA, Eclipse, etc.)
-
-3. **Set up MySQL Database**
-    - Create a database (e.g., `my_hibernate_db`)
-    - Update your DB credentials in `hibernate.cfg.xml`
-
-4. **Build the project**
-   ```bash
-   mvn clean install
-   ```
-
-5. **Run the main class**
-    - Run the `App.java` to test the Hibernate CRUD operations
-    - There are many classes which are made for other concepts. Run them to perform many other operations.
+- HQL
 
 ## 🗃️ Sample Entity
 
