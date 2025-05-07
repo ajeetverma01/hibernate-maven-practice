@@ -2,8 +2,8 @@ package org.example;
 
 import jakarta.persistence.*;
 
+//@Table(name = "new_student")
 @Entity
-@Table(name = "new_student")
 public class Student {
     @Id
     private int id;
