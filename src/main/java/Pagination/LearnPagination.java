@@ -15,5 +15,8 @@ public class LearnPagination {
         Session s = sFac.openSession();
         Query<Student> q1 = s.createQuery("from Student", Student.class);
 
+//        Implementing pagination
+        q1.setFirstResult(0);
+        q1.setMaxResults(3);
     }
 }
