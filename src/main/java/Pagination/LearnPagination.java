@@ -19,5 +19,8 @@ public class LearnPagination {
         q1.setFirstResult(0);
         q1.setMaxResults(3);
         List<Student> list = q1.list();
+        s.close();
+        sFac.close();
+
     }
 }
