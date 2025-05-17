@@ -9,6 +9,7 @@ import java.util.List;
 
 public class LearnPagination {
     public static void main(String[] args) {
-
+        SessionFactory sFac = new Configuration().configure().buildSessionFactory();
+        Session s = sFac.openSession();
     }
 }
