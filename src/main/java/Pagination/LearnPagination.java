@@ -13,6 +13,7 @@ public class LearnPagination {
         cfg.configure();
         SessionFactory sFac = cfg.buildSessionFactory();
         Session s = sFac.openSession();
+        Query<Student> q1 = s.createQuery("from Student", Student.class);
 
     }
 }
