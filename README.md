@@ -11,6 +11,7 @@ This is a simple Java project demonstrating how to use **Hibernate ORM** with **
 - MySQL
 - JDBC
 - JPA Annotations
+- pagination
 
 ## 📁 Project Structure
 
