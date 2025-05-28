@@ -10,6 +10,8 @@ import org.hibernate.cfg.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 public class CascadingEx {
+    //Cascading means performing operations of each related entity
+
     public static void main(String[] args) {
         Configuration cfg = new Configuration();
         cfg.configure();
