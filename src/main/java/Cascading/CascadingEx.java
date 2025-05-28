@@ -33,6 +33,9 @@ public class CascadingEx {
 
         q1.setAnswers(list);
         Transaction t = s.beginTransaction();
-
+        s.persist(q1);
+        t.commit();
+        sFac.close();
+        s.close();
     }
 }
