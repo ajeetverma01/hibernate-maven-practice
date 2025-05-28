@@ -24,8 +24,9 @@ Hibernate-practice/
 │   │   │   ├── com/mapping/
 │   │   │   ├── HQL/
 │   │   │   └── org/example/
-│   │   │       ├── App.java
-│   │   │       └── a.png
+│   │   │   |    ├── App.java
+│   │   │   |   └── a.png
+|   |   |   └──Pagination
 │   │   └── resources/
 │   │       └── hibernate.cfg.xml
 │   └── test/
