@@ -1,9 +1,7 @@
 package com.mapping.ManyToOne;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
+import org.hibernate.annotations.Cascade;
 
 
 @Entity
@@ -14,7 +12,7 @@ public class Test1 {
     private int id;
     private String name;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Test2 test2; // ManyToOne relationship
 
     // Constructors
