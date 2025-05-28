@@ -32,5 +32,7 @@ public class CascadingEx {
         list.add(a3);
 
         q1.setAnswers(list);
+        Transaction t = s.beginTransaction();
+
     }
 }
