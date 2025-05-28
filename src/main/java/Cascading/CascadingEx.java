@@ -26,6 +26,11 @@ public class CascadingEx {
         Answer a1 = new Answer(1111, "imp concept");
         Answer a2 = new Answer(2222, "2 concept");
         Answer a3 = new Answer(2333, "3 concept");
+        List<Answer> list =new ArrayList<>();
+        list.add(a1);
+        list.add(a2);
+        list.add(a3);
 
+        q1.setAnswers(list);
     }
 }
