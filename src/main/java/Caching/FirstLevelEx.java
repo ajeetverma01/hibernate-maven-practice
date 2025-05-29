@@ -15,6 +15,7 @@ public class FirstLevelEx {
         Student stu = s.get(Student.class, 1);
         System.out.println(stu);
 
+//        the data is stored in session, it will not check the db again
 
         Student stu1 = s.get(Student.class, 1);
         System.out.println(stu1);
