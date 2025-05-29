@@ -16,7 +16,12 @@ public class FirstLevelEx {
         System.out.println(stu);
 
 
-
+        Student stu1 = s.get(Student.class, 1);
+        System.out.println(stu1);
+        Student stu2 = s.get(Student.class, 1);
+        System.out.println(stu2);
+        Student stu3 = s.get(Student.class, 1);
+        System.out.println(stu3);
 
 
 
