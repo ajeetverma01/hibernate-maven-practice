@@ -23,6 +23,7 @@ public class FirstLevelEx {
         Student stu3 = s.get(Student.class, 1);
         System.out.println(stu3);
 
+        System.out.println(s.contains(stu2));
 
 
         Transaction t = s.beginTransaction();
