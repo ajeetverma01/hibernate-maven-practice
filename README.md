@@ -2,7 +2,7 @@
 
 This is a simple Java project demonstrating how to use **Hibernate ORM** with **Maven**. It includes basic CRUD operations and uses MySQL as the database.
 
-## 🔧 Technologies Used
+## 🔧 Concepts Used
 
 - Java
 - Hibernate (ORM)
@@ -10,8 +10,11 @@ This is a simple Java project demonstrating how to use **Hibernate ORM** with **
 - Maven
 - MySQL
 - JDBC
+- Mapping
 - JPA Annotations
 - pagination
+- Caching
+- Cascading
 
 ## 📁 Project Structure
 
