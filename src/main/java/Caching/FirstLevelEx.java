@@ -11,6 +11,10 @@ public class FirstLevelEx {
         SessionFactory sFac = new Configuration().configure().buildSessionFactory();
         Session s = sFac.openSession();
 
+//        By default enabled
+        Student stu = s.get(Student.class, 1);
+        System.out.println(stu);
+
 
 
 
