@@ -28,6 +28,7 @@ Hibernate-practice/
 │   │   │   |   └── a.png
 |   |   |   └──Pagination
 |   |   |   └──CasCading
+|   |   |   └──Caching
 │   │   └── resources/
 │   │       └── hibernate.cfg.xml
 │   └── test/
